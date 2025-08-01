@@ -9,7 +9,7 @@ body {
     font-family: 'Bodoni MT', Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
     line-height: 1.6;
     background-color: #12181B;
-    color: rgb(107, 62, 38);
+    color: rgb(236, 240, 240);
 }
 
 .background {
@@ -46,7 +46,7 @@ body {
 }
 
 .tile {
-    border: 1px solid #6B3E26;
+    border: 1px solid #2ee01e;
     min-width: 80px;
     min-height: 80px;
     display: flex;
@@ -58,7 +58,7 @@ body {
 }
 
 .tile:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(13, 225, 119, 0.1);
     transform: scale(1.1);
 }
 
@@ -67,7 +67,7 @@ body {
 }
 
 .playerX {
-    color: #6B3E26;
+    color: #28ea5c;
 }
 
 .playerO {
@@ -118,6 +118,6 @@ body {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    color: #6B3E26;
+    color: #17d7da;
     margin: 10px;
 }
